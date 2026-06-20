@@ -44,8 +44,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 model = joblib.load("Insurance_Fraud_Detection/Models/fraud_model.pkl")
-scaler = joblib.load("Models/scaler.pkl")
-features = joblib.load("Models/features.pkl")
+scaler = joblib.load("Insurance_Fraud_Detection/Models/scaler.pkl")
+features = joblib.load("Insurance_Fraud_Detection/Models/features.pkl")
 
 st.sidebar.title("Navigation")
 page = st.sidebar.selectbox("Select Page", ["Prediction", "About"])
