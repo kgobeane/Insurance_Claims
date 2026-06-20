@@ -43,7 +43,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-model = joblib.load("Models/fraud_model.pkl")
+model = joblib.load("Insurance_Fraud_Detection/Models/fraud_model.pkl")
 scaler = joblib.load("Models/scaler.pkl")
 features = joblib.load("Models/features.pkl")
 
