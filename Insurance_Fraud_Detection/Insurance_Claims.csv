@@ -1,0 +1,354 @@
+Customer_ID;Age;Gender;Province;Monthly_Income;Join_Date;Policy_ID;Policy_Type;Premium_Amount;Policy_Status;Claim_ID;Claim_Date;Claim_Amount;Claim_Status;Fraud_Flag
+Cust1000;44;Male;Gauteng;26 064,00;2020/05/30;Pol5000;Home;1 495,00;Active;Clm9000;2024/04/14;20 438,99;Approved;No
+Cust1001;41;Male;Free State;3 500,00;2025/06/16;Pol5001;Auto;746,28;Active;Clm9001;2025/09/08;4 583,11;Approved;No
+Cust1003;41;Female;Western Cape;3 500,00;2024/06/10;Pol5003;Auto;885,13;Active;Clm9003;2025/01/24;15 139,51;Approved;No
+Cust1005;33;Female;Limpopo;3 500,00;2024/04/13;Pol5005;Home;2 210,31;Active;Clm9005;2024/10/23;30 336,75;Approved;No
+Cust1008;42;Male;North West;31 654,77;2022/03/28;Pol5008;Home;1 410,71;Active;Clm9008;2024/02/02;48 634,23;Approved;No
+Cust1009;41;Male;Limpopo;26 957,76;2020/11/02;Pol5009;Funeral;326,92;Active;Clm9009;2024/08/05;500;Approved;No
+Cust1012;41;Male;Western Cape;38 945,52;2021/08/24;Pol5012;Home;1 734,00;Active;Clm9012;2025/01/25;29 516,87;Approved;No
+Cust1013;59;Female;Gauteng;34 633,66;2021/01/27;Pol5013;Life;706,33;Active;Clm9013;2024/09/30;52 430,06;Rejected;No
+Cust1014;36;Female;Free State;17 447,69;2021/11/06;Pol5014;Auto;1 038,67;Active;Clm9014;2024/09/26;25 858,24;Rejected;No
+Cust1015;45;Male;Mpumalanga;15 999,79;2024/01/23;Pol5015;Home;1 921,00;Active;Clm9015;2025/01/17;20 641,82;Approved;No
+Cust1017;23;Male;Kwazulu-Natal;14 870,45;2024/09/15;Pol5017;Home;3 333,73;Lapsed;Clm9017;2025/06/29;22 216,77;Pending;Yes
+Cust1018;30;Male;Mpumalanga;24 684,54;2021/07/25;Pol5018;Life;1 528,66;Active;Clm9018;2025/07/06;64 601,11;Pending;No
+Cust1020;30;Female;Gauteng;26 393,69;2020/07/30;Pol5020;Life;649,93;Active;Clm9020;2024/03/13;52 289,67;Rejected;Yes
+Cust1023;41;Female;Free State;19 597,00;2025/03/06;Pol5023;Health;1 868,81;Active;Clm9023;2025/10/23;29 064,27;Approved;No
+Cust1025;29;Male;Kwazulu-Natal;20 157,00;2020/05/27;Pol5025;Health;2 466,22;Lapsed;Clm9025;2024/02/21;16 376,78;Approved;No
+Cust1026;48;Male;Kwazulu-Natal;39 389,13;2022/08/01;Pol5026;Funeral;388,9;Lapsed;Clm9026;2025/05/12;26 554,32;Rejected;Yes
+Cust1027;27;Male;Western Cape;11 001,36;2023/08/05;Pol5027;Health;2 575,00;Canceled;Clm9027;2025/04/10;12 606,44;Approved;No
+Cust1029;31;Male;Gauteng;25 012,00;2024/01/16;Pol5029;Life;1 164,41;Active;Clm9029;2024/06/10;39 804,14;Rejected;No
+Cust1030;44;Male;Western Cape;3 500,00;2024/05/18;Pol5030;Auto;1 311,93;Active;Clm9030;2025/02/17;18 119,63;Rejected;No
+Cust1031;54;Male;Gauteng;41 429,79;2023/08/12;Pol5031;Life;1 168,00;Active;Clm9031;2025/06/19;34 210,93;Approved;No
+Cust1035;61;Female;Gauteng;52 575,00;2023/06/16;Pol5035;Life;1 111,34;Active;Clm9035;2024/04/16;13 342,69;Pending;No
+Cust1036;36;Male;Western Cape;38 045,59;2020/08/20;Pol5036;Auto;1 875,82;Active;Clm9036;2024/07/27;17 472,30;Approved;No
+Cust1037;24;Female;Eastern Cape;37 375,42;2023/04/28;Pol5037;Auto;1 478,31;Cancelled;Clm9037;2025/10/11;27 073,85;Approved;No
+Cust1038;37;Male;Gauteng;13 507,00;2021/11/23;Pol5038;Health;1 381,27;Active;Clm9038;2024/06/14;-3 500,00;Pending;No
+Cust1040;37;Male;Free State;3 500,00;2022/01/09;Pol5040;Auto;787,74;Active;Clm9040;2024/02/10;7 725,29;Rejected;No
+Cust1043;44;Female;Free State;14 314,23;2023/10/10;Pol5043;Home;1 844,51;Lapsed;Clm9043;2024/09/30;6 469,49;Rejected;No
+Cust1045;48;Male;Limpopo;12 184,10;2022/07/20;Pol5045;Auto;1 535,43;Active;Clm9045;2024/03/12;16 071,07;Approved;No
+Cust1046;51;Female;North West;31 561,89;2021/02/28;Pol5046;Funeral;397,33;Active;Clm9046;2024/07/01;12 043,86;In Review;No
+Cust1048;41;Male;Free State;38 792,11;2025/02/17;Pol5048;Funeral;425,93;Active;Clm9048;2025/03/22;8 900,93;Approved;No
+Cust1049;48;Male;North West;16 014,83;2023/11/28;Pol5049;Health;1 813,41;Cancelled;Clm9049;2025/09/30;9 841,00;Pending;No
+Cust1050;47;Male;Mpumalanga;15 089,69;2024/03/19;Pol5050;Life;1 053,00;Active;Clm9050;2025/12/14;71 928,80;Approved;No
+Cust1051;42;Male;Free State;12 243,15;2020/12/15;Pol5051;Life;977,35;Active;Clm9051;2024/06/27;53 486,43;Rejected;No
+Cust1052;56;Female;Gauteng;20 842,98;2021/12/13;Pol5052;Health;2 024,53;Active;Clm9052;2025/09/13;10 735,94;Rejected;No
+Cust1055;32;Female;Kwazulu-Natal;20 343,97;2023/09/20;Pol5055;Health;1 773,95;Lapsed;Clm9055;2025/12/14;500;Approved;No
+Cust1058;42;Female;Eastern Cape;10 484,41;2022/12/15;Pol5058;Life;819,32;Active;Clm9058;2025/07/15;55 908,18;Approved;No
+Cust1059;18;Female;Eastern Cape;51 750,39;2022/08/30;Pol5059;Auto;1 423,86;Active;Clm9059;2025/06/17;28 481,37;Approved;No
+Cust1062;44;Male;Free State;17 839,59;2020/09/29;Pol5062;Health;1 646,77;Active;Clm9062;2024/01/21;4 193,01;Pending;No
+Cust1063;44;Male;North West;30 587,71;2022/01/28;Pol5063;Health;2 520,19;Active;Clm9063;2025/03/05;21 194,19;Rejected;No
+Cust1064;32;Male;Eastern Cape;53 374,28;2021/02/10;Pol5064;Auto;1 597,71;Active;Clm9064;2024/12/10;3 082,87;Approved;No
+Cust1065;40;Female;Kwazulu-Natal;9 305,18;2025/04/06;Pol5065;Home;2 086,35;Cancelled;Clm9065;2025/06/30;31 155,42;Pending;No
+Cust1066;41;Male;Kwazulu-Natal;10 125,52;2022/08/08;Pol5066;Life;940;Active;Clm9066;2024/02/21;35 711,19;Approved;No
+Cust1069;34;Male;Gauteng;24 055,02;2023/01/04;Pol5069;Funeral;345,84;Active;Clm9069;2024/06/05;12 716,07;Approved;Yes
+Cust1072;32;Male;Kwazulu-Natal;22 572,18;2024/03/07;Pol5072;Life;1 114,64;Lapsed;Clm9072;2025/12/14;31 843,26;Approved;No
+Cust1073;33;Male;Gauteng;31 133,03;2021/09/15;Pol5073;Health;2 813,04;Active;Clm9073;2025/06/02;17 455,13;Approved;No
+Cust1074;45;Female;Eastern Cape;43 521,85;2024/05/07;Pol5074;Auto;1 637,17;Cancelled;Clm9074;2025/04/15;24 162,74;Approved;No
+Cust1075;43;Female;Eastern Cape;22 493,26;2023/06/13;Pol5075;Medical;2 867,07;Lapsed;Clm9075;2024/11/26;17 163,87;Approved;No
+Cust1076;41;Male;Mpumalanga;50 084,00;2021/11/18;Pol5076;Funeral;296,43;Active;Clm9076;2025/09/16;9 799,28;Approved;No
+Cust1077;52;Male;Eastern Cape;6 675,38;2022/09/25;Pol5077;Funeral;283,38;Active;Clm9077;2024/09/21;10 987,67;Approved;No
+Cust1078;27;Female;Gauteng;37 916,99;2022/04/27;Pol5078;Life;629,92;Active;Clm9078;2025/02/20;25 738,47;Approved;No
+Cust1080;46;Male;Mpumalanga;46 608,14;2022/07/01;Pol5080;Life;927,57;Active;Clm9080;2024/12/18;19 246,05;Approved;No
+Cust1081;48;Female;North West;18 863,26;2023/03/06;Pol5081;Home;509,25;Active;Clm9081;2024/05/03;14 396,29;Approved;No
+Cust1085;44;Female;Eastern Cape;19 968,20;2021/12/12;Pol5085;Health;3 385,36;Active;Clm9085;2024/09/15;16 908,14;Pending;No
+Cust1086;43;Male;Free State;37 060,74;2023/07/05;Pol5086;Health;3 044,39;Active;Clm9086;2024/06/04;25 471,42;Approved;No
+Cust1087;37;Female;Kwazulu-Natal;40 371,24;2022/04/11;Pol5087;Funeral;274,93;Active;Clm9087;2025/09/12;9 970,26;Rejected;No
+Cust1088;38;Male;Free State;44 418,21;2023/05/30;Pol5088;Health;1 877,63;Active;Clm9088;2025/03/15;9 100,47;Rejected;No
+Cust1091;47;Female;Eastern Cape;3 500,00;2022/05/14;Pol5091;Auto;1 606,42;Active;Clm9091;2025/10/02;21 291,64;Approved;No
+Cust1095;35;Female;Mpumalanga;47 259,90;2022/03/29;Pol5095;Auto;1 297,48;Active;Clm9095;2025/08/12;4 319,52;Approved;No
+Cust1096;31;Female;Gauteng;9 476,74;2023/08/07;Pol5096;Home;2 613,60;Active;Clm9096;2025/03/28;9 325,13;Approved;No
+Cust1097;50;Female;Eastern Cape;62 156,53;2021/01/22;Pol5097;Funeral;441,07;Active;Clm9097;2024/11/24;12 315,95;Rejected;Yes
+Cust1098;20;Female;Eastern Cape;26 623,25;2025/04/03;Pol5098;Health;1 437,85;Cancelled;Clm9098;2025/07/17;4 082,97;Rejected;No
+Cust1101;31;Male;Limpopo;40 528,94;2023/02/28;Pol5101;Auto;1 246,77;Active;Clm9101;2025/12/16;38 378,92;Approved;Yes
+Cust1102;36;Male;Western Cape;26 182,51;2023/11/30;Pol5102;Health;2 011,80;Active;Clm9102;2024/08/18;11 293,74;Approved;No
+Cust1105;45;Male;Kwazulu-Natal;29 064,08;2023/11/04;Pol5105;Auto;1 538,56;Lapsed;Clm9105;2025/06/03;9 412,88;Approved;No
+Cust1109;50;Male;Eastern Cape;34 645,78;2024/04/14;Pol5109;Funeral;351,24;Active;Clm9109;2024/12/05;12 878,17;Pending;No
+Cust1110;39;Female;Kwazulu-Natal;35 415,70;2021/05/25;Pol5110;Life;966,12;Active;Clm9110;2025/02/23;55 798,72;Rejected;No
+Cust1111;36;Male;Eastern Cape;48 870,17;2021/05/23;Pol5111;Home;1 463,89;Active;Clm9111;2025/02/11;31 243,26;Rejected;Yes
+Cust1112;49;Female;North West;7 211,43;2025/03/27;Pol5112;Life;608,28;Lapsed;Clm9112;2025/07/08;58 664,79;Approved;No
+Cust1113;32;Male;Mpumalanga;33 485,26;2020/08/22;Pol5113;Funeral;364,35;Active;Clm9113;2024/04/10;8 400,39;Approved;No
+Cust1116;61;Female;Limpopo;29 911,49;2024/04/13;Pol5116;Health;2 211,00;Active;Clm9116;2025/10/15;3 624,71;Approved;No
+Cust1118;39;Female;Free State;31 760,29;2022/04/15;Pol5118;Life;1 084,57;Active;Clm9118;2025/01/28;9 605,58;Approved;No
+Cust1119;36;Female;North West;24 124,61;2023/07/19;Pol5119;Life;1 165,12;Cancelled;Clm9119;2025/11/05;73 932,22;Approved;Yes
+Cust1120;46;Male;Eastern Cape;44 428,63;2021/02/27;Pol5120;Home;1 306,89;Cancelled;Clm9120;2024/08/23;29 706,00;Rejected;No
+Cust1121;41;Male;Limpopo;64 423,56;2021/12/13;Pol5121;Life;1 138,00;Active;Clm9121;2025/11/06;22 962,63;Rejected;No
+Cust1122;32;Male;Gauteng;36 240,10;2023/10/13;Pol5122;Health;2 336,80;Active;Clm9122;2024/05/14;10 927,86;Approved;No
+Cust1123;37;Female;Free State;33 873,45;2021/12/19;Pol5123;Auto;1 039,38;Active;Clm9123;2025/01/09;14 203,46;Approved;No
+Cust1124;22;Female;Western Cape;45 676,18;2022/11/06;Pol5124;Auto;1 156,85;Lapsed;Clm9124;2024/10/29;37 057,88;Approved;No
+Cust1125;47;Female;Kwazulu-Natal;20 283,40;2023/08/01;Pol5125;Auto;1 063,63;Cancelled;Clm9125;2025/11/21;27 075,40;Rejected;No
+Cust1127;34;Female;Free State;43 242,48;2021/12/06;Pol5127;Home;1 096,17;Cancelled;Clm9127;2024/08/27;20 407,56;Approved;Yes
+Cust1129;47;Male;Western Cape;45 177,07;2023/09/12;Pol5129;Motor;1 314,95;Active;Clm9129;2024/04/28;21 489,97;Pending;No
+Cust1130;38;Male;Free State;17 539,04;2023/01/31;Pol5130;Health;2 630,43;Active;Clm9130;2025/07/07;500;Rejected;No
+Cust1132;43;Male;Eastern Cape;37 703,48;2023/10/13;Pol5132;Health;1 879,78;Active;Clm9132;2025/12/03;15 492,48;Approved;No
+Cust1133;45;Female;Gauteng;56 804,94;2024/09/05;Pol5133;Health;1 663,20;Active;Clm9133;2025/04/10;8 138,05;Approved;No
+Cust1134;42;Male;Gauteng;24 467,05;2024/05/08;Pol5134;Home;1 564,97;Active;Clm9134;2025/08/01;20 883,71;Approved;Yes
+Cust1135;40;Male;Limpopo;7 864,11;2025/07/29;Pol5135;Home;2 086,02;Active;Clm9135;2025/09/02;31 816,79;Rejected;No
+Cust1136;31;Male;Western Cape;42 419,45;2023/04/03;Pol5136;Life;711,22;Lapsed;Clm9136;2024/01/27;70 419,97;Approved;Yes
+Cust1137;27;Male;North West;33 996,30;2022/02/24;Pol5137;Auto;1 284,50;Active;Clm9137;2025/03/07;21 095,07;Approved;No
+Cust1138;40;Male;Eastern Cape;46 446,37;2022/05/12;Pol5138;Health;2 783,93;Active;Clm9138;2025/04/07;0;Approved;No
+Cust1139;48;Male;Mpumalanga;35 654,27;2023/01/04;Pol5139;Health;1 879,91;Cancelled;Clm9139;2025/05/05;21 737,27;Approved;No
+Cust1142;43;Female;Free State;24 622,39;2022/08/26;Pol5142;Auto;1 585,40;Active;Clm9142;2025/10/28;16 856,38;Rejected;No
+Cust1144;43;Male;North West;53 734,57;2020/06/30;Pol5144;Health;1 890,41;Active;Clm9144;2024/06/05;3 570,54;Approved;No
+Cust1145;37;Male;Kwazulu-Natal;25 636,50;2024/03/26;Pol5145;Home;1 707,27;Active;Clm9145;2025/01/16;500;Approved;No
+Cust1146;31;Female;Kwazulu-Natal;3 500,00;2024/10/25;Pol5146;Health;2 924,20;Lapsed;Clm9146;2025/03/09;25 119,72;Pending;No
+Cust1147;36;Female;North West;16 194,55;2024/01/05;Pol5147;Auto;2 109,83;Active;Clm9147;2025/05/08;34 102,98;Approved;No
+Cust1148;32;Female;North West;27 481,48;2021/12/23;Pol5148;Auto;1 199,74;Active;Clm9148;2025/03/15;25 220,53;Approved;No
+Cust1149;42;Male;Mpumalanga;46 766,31;2022/11/26;Pol5149;Auto;693,69;Active;Clm9149;2024/12/13;10 856,29;Declined;Yes
+Cust1150;59;Female;Kwazulu-Natal;27 150,75;2024/03/14;Pol5150;Auto;1 102,06;Active;Clm9150;2025/06/27;22 832,89;Approved;No
+Cust1155;37;Male;Western Cape;39 351,32;2022/11/25;Pol5155;Home;851,88;Active;Clm9155;2025/05/24;12 731,54;Approved;No
+Cust1158;36;Female;Mpumalanga;50 381,06;2023/01/26;Pol5158;Auto;1 546,32;Active;Clm9158;2025/09/24;21 511,60;Approved;No
+Cust1160;18;Female;North West;38 470,74;2025/01/20;Pol5160;Auto;974,54;Active;Clm9160;2025/10/10;15 282,96;Approved;No
+Cust1161;33;Male;North West;26 516,72;2023/01/04;Pol5161;Health;1 198,22;Canceled;Clm9161;2024/05/31;14 464,40;Rejected;Yes
+Cust1163;18;Female;North West;71 928,48;2021/06/24;Pol5163;Funeral;412,53;Active;Clm9163;2024/03/10;13 092,36;Approved;No
+Cust1165;28;Female;Kwazulu-Natal;8 685,35;2022/09/28;Pol5165;Life;1 188,28;Cancelled;Clm9165;2025/08/31;52 774,61;Approved;No
+Cust1168;36;Male;Limpopo;3 500,00;2024/09/26;Pol5168;Home;1 725,00;Canceled;Clm9168;2025/09/16;47 606,00;Approved;No
+Cust1169;41;Female;Free State;21 117,09;2022/01/22;Pol5169;Health;1 515,87;Active;Clm9169;2025/10/08;15 139,33;Approved;No
+Cust1171;31;Female;Kwazulu-Natal;23 747,84;2021/11/03;Pol5171;Life;830,94;Active;Clm9171;2025/11/02;42 527,31;Approved;No
+Cust1172;41;Male;Kwazulu-Natal;19 841,00;2020/07/08;Pol5172;Health;2 019,43;Active;Clm9172;2024/05/10;12 709,26;Rejected;No
+Cust1173;45;Male;Free State;44 854,38;2022/08/09;Pol5173;Life;950,13;Active;Clm9173;2024/08/07;23 027,18;Approved;No
+Cust1174;34;Female;Limpopo;48 334,55;2021/05/10;Pol5174;Auto;1 464,00;Active;Clm9174;2024/04/13;17 280,24;Approved;No
+Cust1175;43;Male;North West;15 371,28;2023/06/10;Pol5175;Funeral;241,93;Active;Clm9175;2024/06/06;13 023,24;Approved;No
+Cust1176;39;Male;Eastern Cape;13 969,38;2021/09/27;Pol5176;Motor;1 609,29;Active;Clm9176;2025/03/30;16 185,24;Approved;No
+Cust1178;40;Female;Eastern Cape;49 686,28;2024/03/08;Pol5178;Home;1 622,90;Active;Clm9178;2025/03/04;-1 250,00;Approved;No
+Cust1179;37;Male;Mpumalanga;4 995,36;2021/04/25;Pol5179;Auto;1 288,00;Active;Clm9179;2024/04/15;12 144,57;Approved;No
+Cust1183;43;Male;Gauteng;28 268,07;2021/09/05;Pol5183;Health;2 392,72;Lapsed;Clm9183;2024/05/22;4 348,51;Approved;No
+Cust1184;35;Male;Kwazulu-Natal;27 990,00;2022/09/01;Pol5184;Auto;912,36;Active;Clm9184;2025/09/15;20 525,84;Approved;No
+Cust1185;35;Female;Limpopo;18 934,41;2023/02/06;Pol5185;Health;1 991,27;Active;Clm9185;2025/09/29;500;Approved;No
+Cust1187;56;Female;Western Cape;29 460,98;2021/02/27;Pol5187;Life;902,72;Active;Clm9187;2024/03/10;44 782,40;Pending;No
+Cust1190;20;Female;North West;18 514,09;2021/04/27;Pol5190;Home;1 808,00;Active;Clm9190;2025/04/20;46 866,80;Rejected;No
+Cust1191;39;Male;Western Cape;16 684,28;2023/08/12;Pol5191;Auto;1 059,34;Active;Clm9191;2024/10/27;500;Approved;No
+Cust1192;60;Male;Gauteng;71 538,86;2022/10/15;Pol5192;Health;1 990,08;Active;Clm9192;2025/07/10;13 840,57;Approved;No
+Cust1193;48;Male;Mpumalanga;19 358,46;2023/04/26;Pol5193;Health;1 439,91;Lapsed;Clm9193;2024/12/05;11 955,23;Rejected;Yes
+Cust1194;46;Female;Eastern Cape;39 887,43;2021/06/06;Pol5194;Funeral;456,85;Active;Clm9194;2025/05/23;500;Pending;No
+Cust1195;46;Female;Kwazulu-Natal;33 893,62;2021/05/13;Pol5195;Home;2 093,72;Active;Clm9195;2024/07/03;38 719,24;Approved;No
+Cust1196;46;Male;Kwazulu-Natal;8 876,62;2024/03/06;Pol5196;Health;2 256,75;Active;Clm9196;2025/03/12;3 765,00;Approved;No
+Cust1198;35;Male;Kwazulu-Natal;3 500,00;2024/12/04;Pol5198;Life;709,06;Active;Clm9198;2025/11/26;31 347,08;Approved;No
+Cust1199;48;Male;Eastern Cape;42 493,49;2022/12/01;Pol5199;Auto;703,83;Active;Clm9199;2025/01/10;4 228,37;Rejected;No
+Cust1200;31;Male;Western Cape;30 475,49;2020/11/30;Pol5200;Life;1 368,36;Cancelled;Clm9200;2024/03/19;24 331,26;Rejected;Yes
+Cust1201;26;Female;Mpumalanga;15 154,96;2022/06/01;Pol5201;Motor;1 706,18;Active;Clm9201;2025/05/26;5 398,51;Rejected;No
+Cust1203;37;Female;Limpopo;39 564,66;2023/06/04;Pol5203;Auto;1 197,13;Lapsed;Clm9203;2025/12/31;24 552,22;Approved;No
+Cust1204;30;Female;North West;18 332,43;2023/11/17;Pol5204;Home;1 277,91;Active;Clm9204;2024/11/03;31 996,22;Approved;No
+Cust1205;39;Male;North West;38 397,55;2022/12/25;Pol5205;Life;1 167,29;Active;Clm9205;2024/05/22;41 232,35;Approved;No
+Cust1206;30;Male;North West;8 665,38;2024/09/26;Pol5206;Life;892;Active;Clm9206;2025/07/18;75 948,80;Rejected;No
+Cust1207;32;Male;Kwazulu-Natal;40 034,23;2023/02/02;Pol5207;Health;2 072,75;Cancelled;Clm9207;2025/06/22;8 055,02;Approved;No
+Cust1208;35;Male;Western Cape;24 083,36;2022/12/04;Pol5208;Funeral;310,24;Active;Clm9208;2025/11/27;21 468,08;Approved;No
+Cust1209;24;Male;Western Cape;9 485,59;2021/05/12;Pol5209;Health;2 428,36;Cancelled;Clm9209;2024/05/07;12 687,14;Rejected;Yes
+Cust1211;45;Female;Western Cape;15 138,39;2024/10/08;Pol5211;Life;1 193,95;Active;Clm9211;2025/10/18;22 346,91;Approved;No
+Cust1214;48;Female;Gauteng;24 715,31;2022/01/21;Pol5214;Health;1 230,85;Active;Clm9214;2024/11/05;23 713,42;Approved;No
+Cust1215;43;Male;Mpumalanga;33 448,23;2022/05/15;Pol5215;Health;2 834,14;Active;Clm9215;2025/03/01;5 599,69;Approved;No
+Cust1217;32;Female;Kwazulu-Natal;25 416,64;2023/10/28;Pol5217;Health;776,66;Active;Clm9217;2024/09/10;10 388,07;Approved;No
+Cust1218;30;Female;Free State;29 147,94;2022/07/13;Pol5218;Funeral;360,06;Active;Clm9218;2024/06/12;18 187,42;Pending;No
+Cust1219;34;Male;Limpopo;21 287,10;2023/08/03;Pol5219;Home;1 740,09;Active;Clm9219;2025/05/25;13 609,71;Approved;No
+Cust1220;58;Male;Free State;24 947,36;2024/08/20;Pol5220;Life;677,59;Cancelled;Clm9220;2024/12/27;61 240,99;Approved;Yes
+Cust1221;44;Female;Mpumalanga;42 428,00;2022/08/10;Pol5221;Life;677,02;Lapsed;Clm9221;2024/09/27;28 888,74;Approved;No
+Cust1222;44;Female;Gauteng;8 860,07;2023/11/07;Pol5222;Health;1 360,49;Active;Clm9222;2025/07/20;14 083,54;Approved;No
+Cust1224;47;Female;North West;36 574,56;2025/02/04;Pol5224;Home;1 539,00;Active;Clm9224;2025/05/27;33 464,84;Rejected;Yes
+Cust1226;44;Female;Western Cape;8 409,71;2023/09/12;Pol5226;Health;839,98;Active;Clm9226;2025/08/30;27 633,26;Rejected;No
+Cust1227;60;Female;Mpumalanga;28 052,00;2021/11/21;Pol5227;Health;2 904,89;Active;Clm9227;2024/04/22;16 503,05;Approved;No
+Cust1229;43;Male;Eastern Cape;25 137,40;2024/02/27;Pol5229;Auto;1 964,42;Active;Clm9229;2025/01/24;13 709,23;Approved;No
+Cust1230;45;Male;Gauteng;16 739,58;2023/05/25;Pol5230;Life;1 013,29;Active;Clm9230;2025/03/27;41 463,60;Approved;No
+Cust1231;37;Female;Limpopo;6 319,34;2023/04/27;Pol5231;Health;1 929,07;Active;Clm9231;2024/03/04;18 996,14;Pending;No
+Cust1233;45;Female;Eastern Cape;3 500,00;2022/11/18;Pol5233;Auto;1 224,13;Active;Clm9233;2024/08/18;8 461,48;Approved;No
+Cust1234;49;Male;Eastern Cape;20 306,44;2023/01/27;Pol5234;Health;1 718,67;Active;Clm9234;2024/10/07;15 856,53;Pending;No
+Cust1235;35;Female;Free State;39 832,21;2024/06/30;Pol5235;Home;2 366,85;Cancelled;Clm9235;2024/10/24;5 554,00;Rejected;No
+Cust1236;56;Male;North West;24 164,10;2023/05/22;Pol5236;Funeral;616,25;Active;Clm9236;2024/08/07;6 993,32;Rejected;No
+Cust1237;41;Female;Mpumalanga;12 637,76;2024/04/25;Pol5237;Auto;1 143,90;Active;Clm9237;2024/09/05;25 916,67;Approved;No
+Cust1240;18;Female;North West;3 500,00;2022/07/12;Pol5240;Health;1 034,49;Active;Clm9240;2025/10/29;8 919,83;Rejected;No
+Cust1241;47;Male;Western Cape;31 015,55;2021/10/17;Pol5241;Health;4 455,74;Lapsed;Clm9241;2024/02/07;11 635,90;Pending;No
+Cust1243;37;Female;Western Cape;37 361,17;2022/05/19;Pol5243;Funeral;326,64;Active;Clm9243;2024/04/25;15 288,28;Approved;Yes
+Cust1244;56;Female;Western Cape;41 796,30;2024/09/22;Pol5244;Auto;1 654,20;Active;Clm9244;2025/11/21;31 990,37;Approved;No
+Cust1245;49;Female;Free State;21 469,00;2023/08/26;Pol5245;Life;1 031,01;Active;Clm9245;2024/07/08;15 651,48;Approved;No
+Cust1246;44;Male;Gauteng;49 294,09;2023/02/24;Pol5246;Auto;1 017,88;Active;Clm9246;2024/12/03;7 490,00;Rejected;No
+Cust1247;52;Male;Mpumalanga;24 376,04;2021/08/22;Pol5247;Life;494,85;Active;Clm9247;2024/05/01;80 770,97;Approved;No
+Cust1249;26;Male;Eastern Cape;61 763,47;2022/01/02;Pol5249;Auto;1 880,74;Active;Clm9249;2025/03/01;18 736,06;Approved;No
+Cust1250;18;Male;Limpopo;15 954,61;2022/11/21;Pol5250;Life;1 089,14;Active;Clm9250;2025/06/22;36 519,76;Rejected;No
+Cust1253;35;Female;Gauteng;30 386,49;2020/12/12;Pol5253;Health;1 976,03;Active;Clm9253;2024/02/29;17 716,88;Approved;No
+Cust1255;42;Male;Gauteng;23 339,95;2022/05/26;Pol5255;Funeral;561;Active;Clm9255;2024/02/02;24 215,09;Pending;No
+Cust1256;41;Male;Free State;50 846,00;2022/11/14;Pol5256;Medical;3 190,84;Lapsed;Clm9256;2025/01/21;21 604,25;Approved;Yes
+Cust1258;50;Male;Mpumalanga;36 169,62;2023/09/11;Pol5258;Health;2 447,91;Active;Clm9258;2025/01/23;6 163,18;Approved;No
+Cust1260;33;Female;Gauteng;19 429,66;2021/10/26;Pol5260;Auto;1 521,92;Active;Clm9260;2025/04/02;30 523,87;Approved;No
+Cust1261;19;Male;Limpopo;48 929,14;2024/03/18;Pol5261;Home;1 140,48;Active;Clm9261;2024/08/10;24 810,87;Approved;Yes
+Cust1265;49;Female;Western Cape;35 310,00;2023/05/01;Pol5265;Health;1 901,53;Active;Clm9265;2024/09/03;19 143,63;Approved;No
+Cust1267;28;Male;North West;18 522,07;2021/03/05;Pol5267;Life;1 175,10;Cancelled;Clm9267;2024/04/04;72 418,30;Rejected;No
+Cust1268;20;Male;Gauteng;20 657,73;2023/01/25;Pol5268;Auto;1 092,64;Active;Clm9268;2024/03/15;24 604,43;Approved;No
+Cust1270;39;Male;Eastern Cape;68 157,64;2023/09/09;Pol5270;Funeral;402,96;Active;Clm9270;2025/02/10;15 788,95;Approved;No
+Cust1272;46;Female;Kwazulu-Natal;55 177,04;2023/09/04;Pol5272;Home;1 891,00;Active;Clm9272;2024/11/23;15 004,71;Rejected;No
+Cust1273;51;Female;Gauteng;29 880,15;2021/07/19;Pol5273;Life;735;Active;Clm9273;2024/09/24;72 061,56;Approved;No
+Cust1274;32;Female;Mpumalanga;23 967,46;2021/10/22;Pol5274;Auto;1 846,49;Active;Clm9274;2024/09/08;7 784,53;Approved;No
+Cust1276;61;Female;Western Cape;13 793,37;2021/11/03;Pol5276;Auto;1 223,49;Active;Clm9276;2025/07/09;40 040,39;Approved;No
+Cust1277;51;Male;Kwazulu-Natal;34 652,35;2024/04/21;Pol5277;Funeral;459,65;Active;Clm9277;2025/02/26;5 947,23;Rejected;No
+Cust1281;54;Male;Limpopo;53 301,00;2022/06/11;Pol5281;Auto;761,07;Active;Clm9281;2024/09/30;11 081,41;Rejected;No
+Cust1282;51;Female;Eastern Cape;20 104,74;2025/05/20;Pol5282;Life;1 165,00;Cancelled;Clm9282;2025/12/01;43 638,02;Approved;No
+Cust1283;44;Male;Kwazulu-Natal;48 847,58;2025/08/26;Pol5283;Health;1 857,36;Active;Clm9283;2025/10/14;15 487,80;Approved;No
+Cust1284;36;Male;Eastern Cape;56 656,07;2021/03/23;Pol5284;Home;1 225,57;Active;Clm9284;2024/04/07;10 488,50;Approved;No
+Cust1285;32;Male;Limpopo;26 918,91;2024/06/01;Pol5285;Funeral;380,31;Active;Clm9285;2024/10/04;22 077,35;Approved;No
+Cust1288;50;Female;Free State;22 731,79;2021/05/01;Pol5288;Home;2 453,78;Active;Clm9288;2024/03/21;21 058,12;Pending;No
+Cust1289;33;Male;Gauteng;24 938,85;2022/03/04;Pol5289;Auto;1 318,01;Active;Clm9289;2025/09/11;5 796,45;Approved;No
+Cust1290;35;Female;North West;3 500,00;2024/01/06;Pol5290;Auto;1 223,54;Active;Clm9290;2025/05/17;24 316,81;Pending;No
+Cust1292;33;Male;Kwazulu-Natal;8 785,48;2022/03/02;Pol5292;Auto;1 463,04;Active;Clm9292;2024/06/06;9 670,65;Rejected;No
+Cust1295;42;Male;North West;48 314,02;2021/01/07;Pol5295;Funeral;432,45;Active;Clm9295;2024/03/27;4 592,84;Approved;No
+Cust1296;42;Male;Western Cape;63 161,79;2021/11/27;Pol5296;Life;1 110,14;Active;Clm9296;2024/10/01;31 378,25;Rejected;Yes
+Cust1297;49;Female;Free State;28 723,25;2021/02/07;Pol5297;Health;2 744,59;Lapsed;Clm9297;2024/09/09;14 566,29;Approved;No
+Cust1298;29;Male;Eastern Cape;19 064,04;2021/05/16;Pol5298;Auto;1 064,62;Active;Clm9298;2024/12/06;6 382,50;Pending;No
+Cust1299;52;Female;Eastern Cape;22 452,78;2024/10/27;Pol5299;Health;2 462,47;Lapsed;Clm9299;2025/08/31;4 212,97;Rejected;No
+Cust1300;29;Male;Eastern Cape;17 932,47;2020/11/02;Pol5300;Health;2 100,41;Cancelled;Clm9300;2024/10/25;1 203,39;Pending;No
+Cust1301;37;Male;North West;3 500,00;2021/01/28;Pol5301;Health;2 540,78;Lapsed;Clm9301;2024/04/26;1 017,12;Approved;No
+Cust1302;59;Male;Gauteng;14 729,50;2023/07/07;Pol5302;Funeral;421,57;Active;Clm9302;2025/03/24;15 600,91;Approved;No
+Cust1303;35;Male;Free State;33 180,86;2020/12/07;Pol5303;Life;825,77;Active;Clm9303;2024/09/15;24 947,16;Rejected;Yes
+Cust1304;47;Female;Kwazulu-Natal;21 964,24;2022/07/30;Pol5304;Health;2 430,48;Active;Clm9304;2025/07/01;12 057,43;Approved;No
+Cust1305;35;Female;Gauteng;17 807,00;2022/02/03;Pol5305;Home;1 033,96;Active;Clm9305;2025/07/03;38 353,49;Rejected;No
+Cust1306;26;Male;Kwazulu-Natal;39 482,21;2022/04/19;Pol5306;Home;1 532,39;Active;Clm9306;2025/10/24;28 144,34;Approved;Yes
+Cust1307;45;Female;North West;16 092,51;2023/05/26;Pol5307;Funeral;414;Active;Clm9307;2024/09/21;12 109,48;Approved;No
+Cust1308;32;Male;Eastern Cape;32 657,00;2023/01/19;Pol5308;Health;1 966,37;Active;Clm9308;2025/12/08;10 877,00;Approved;No
+Cust1309;43;Male;Eastern Cape;28 552,26;2023/06/13;Pol5309;Auto;847,43;Active;Clm9309;2024/04/28;16 497,54;Pending;No
+Cust1310;49;Female;Eastern Cape;51 844,00;2021/09/25;Pol5310;Home;1 862,23;Active;Clm9310;2024/04/09;36 296,17;Approved;No
+Cust1311;18;Female;North West;30 030,89;2022/01/22;Pol5311;Auto;1 627,61;Active;Clm9311;2024/01/24;5 193,55;Approved;No
+Cust1313;40;Female;Western Cape;56 589,06;2024/07/13;Pol5313;Auto;1 447,08;Active;Clm9313;2025/09/20;25 821,16;Approved;No
+Cust1317;29;Female;Kwazulu-Natal;35 190,60;2023/03/22;Pol5317;Life;1 113,74;Active;Clm9317;2024/04/29;46 758,07;Approved;No
+Cust1320;32;Female;Gauteng;18 062,95;2022/08/29;Pol5320;Health;0;Active;Clm9320;2025/07/29;10 800,47;Approved;No
+Cust1323;49;Female;Kwazulu-Natal;31 402,07;2021/11/27;Pol5323;Life;1 025,43;Active;Clm9323;2025/01/10;54 653,24;Approved;No
+Cust1324;40;Male;Eastern Cape;39 894,57;2024/05/13;Pol5324;Life;750,01;Cancelled;Clm9324;2025/10/31;57 789,88;Approved;Yes
+Cust1326;50;Female;Kwazulu-Natal;16 170,82;2024/03/01;Pol5326;Auto;825,34;Active;Clm9326;2024/07/30;17 435,56;Approved;No
+Cust1327;36;Female;Western Cape;23 290,58;2021/10/13;Pol5327;Health;2 377,00;Active;Clm9327;2024/09/30;19 100,03;Approved;No
+Cust1329;35;Male;Western Cape;10 093,57;2023/08/12;Pol5329;Home;1 856,73;Lapsed;Clm9329;2025/11/23;39 402,01;Rejected;No
+Cust1330;30;Female;Free State;54 466,17;2021/12/02;Pol5330;Medical;1 034,49;Active;Clm9330;2024/04/05;28 122,20;Rejected;No
+Cust1333;18;Female;North West;23 515,83;2021/01/20;Pol5333;Life;734,13;Active;Clm9333;2024/12/17;55 666,00;Rejected;No
+Cust1335;62;Female;Limpopo;8 068,44;2023/11/16;Pol5335;Funeral;256,26;Cancelled;Clm9335;2024/11/05;5 502,64;Rejected;No
+Cust1336;26;Female;Kwazulu-Natal;3 500,00;2024/10/23;Pol5336;Life;1 079,24;Active;Clm9336;2025/10/26;58 785,81;Approved;Yes
+Cust1337;49;Male;Free State;22 188,60;2024/10/26;Pol5337;Life;923,91;Active;Clm9337;2025/05/03;48 507,16;Rejected;Yes
+Cust1338;55;Female;Gauteng;34 280,90;2021/03/18;Pol5338;Auto;1 686,70;Active;Clm9338;2025/03/08;21 025,95;Approved;No
+Cust1339;25;Male;Limpopo;42 755,80;2022/09/26;Pol5339;Health;1 677,16;Active;Clm9339;2024/11/16;9 095,07;Approved;No
+Cust1342;38;Female;Limpopo;31 403,73;2023/06/02;Pol5342;Auto;1 247,02;Active;Clm9342;2025/08/26;10 614,97;Rejected;No
+Cust1343;36;Female;North West;3 500,00;2021/07/06;Pol5343;Home;1 538,21;Active;Clm9343;2024/09/11;15 430,95;Approved;No
+Cust1344;30;Female;Gauteng;51 186,92;2021/12/20;Pol5344;Home;2 172,35;Active;Clm9344;2025/06/14;36 695,64;Approved;No
+Cust1345;45;Female;Mpumalanga;50 937,04;2021/10/25;Pol5345;Life;570,27;Lapsed;Clm9345;2024/09/02;49 384,00;Rejected;No
+Cust1346;39;Male;Eastern Cape;17 543,07;2021/12/05;Pol5346;Life;1 081,63;Active;Clm9346;2024/01/13;500;Rejected;No
+Cust1347;34;Male;Free State;3 500,00;2024/11/12;Pol5347;Funeral;164,86;Active;Clm9347;2025/11/30;16 949,03;Approved;No
+Cust1350;41;Female;Kwazulu-Natal;12 737,08;2023/08/04;Pol5350;Life;977,63;Active;Clm9350;2025/07/03;24 731,03;Rejected;No
+Cust1351;47;Male;Mpumalanga;3 500,00;2022/09/17;Pol5351;Life;1 414,16;Active;Clm9351;2024/02/29;60 205,94;Rejected;Yes
+Cust1039;49;Male;Eastern Cape;23 984,88;2024/07/28;Pol5355;Health;1 924,94;Active;Clm9355;2025/08/03;3 030,05;Approved;No
+Cust1356;24;Female;Kwazulu-Natal;12 883,69;2025/05/01;Pol5356;Funeral;341,83;Active;Clm9356;2025/06/05;19 838,61;Approved;Yes
+Cust1358;27;Female;Limpopo;29 767,75;2024/03/29;Pol5358;Health;1 624,49;Active;Clm9358;2024/10/04;1 541,04;Rejected;No
+Cust1359;36;Male;Gauteng;21 495,86;2024/08/27;Pol5359;Auto;1 365,53;Lapsed;Clm9359;2025/02/14;27 556,00;Pending;No
+Cust1360;38;Female;Mpumalanga;26 498,29;2022/11/05;Pol5360;Health;1 453,99;Active;Clm9360;2024/07/24;25 595,49;Approved;No
+Cust1361;47;Female;Limpopo;30 791,94;2021/05/27;Pol5361;Health;1 712,66;Active;Clm9361;2024/07/19;19 529,45;Approved;No
+Cust1364;31;Male;Free State;31 125,79;2024/05/05;Pol5364;Health;1 772,37;Active;Clm9364;2025/12/29;500;Pending;No
+Cust1365;40;Male;Free State;30 466,66;2020/11/24;Pol5365;Property;1 418,04;Active;Clm9365;2024/03/27;32 178,60;Rejected;Yes
+Cust1366;42;Female;Kwazulu-Natal;20 541,84;2022/12/16;Pol5366;Life;724,83;Active;Clm9366;2024/05/13;64 294,74;Approved;No
+Cust1367;37;Female;Free State;39 856,35;2023/05/16;Pol5367;Home;1 994,28;Active;Clm9367;2024/10/05;28 406,00;Approved;No
+Cust1368;41;Male;Western Cape;3 500,00;2021/11/10;Pol5368;Home;1 111,28;Active;Clm9368;2024/06/17;30 204,44;Approved;No
+Cust1372;32;Female;Limpopo;11 810,18;2024/03/11;Pol5372;Auto;1 647,53;Active;Clm9372;2024/05/04;30 196,26;Rejected;No
+Cust1374;48;Female;Kwazulu-Natal;28 018,56;2024/06/10;Pol5374;Auto;1 488,40;Active;Clm9374;2025/03/30;500;Rejected;Yes
+Cust1377;51;Female;Western Cape;44 020,10;2021/12/13;Pol5377;Auto;864,25;Active;Clm9377;2024/10/29;26 979,51;Approved;No
+Cust1378;41;Female;Gauteng;23 753,10;2022/10/10;Pol5378;Auto;1 273,40;Active;Clm9378;2025/10/20;12 322,16;Approved;No
+Cust1380;27;Female;Free State;52 066,57;2022/06/05;Pol5380;Auto;1 036,28;Active;Clm9380;2024/01/31;6 322,76;Approved;No
+Cust1381;47;Female;North West;3 500,00;2022/10/23;Pol5381;Home;2 419,24;Cancelled;Clm9381;2024/04/12;25 929,00;Pending;No
+Cust1382;36;Female;Gauteng;44 703,58;2023/01/07;Pol5382;Home;1 114,07;Cancelled;Clm9382;2025/02/01;25 902,64;Approved;No
+Cust1383;35;Male;Western Cape;46 077,83;2021/08/10;Pol5383;Auto;1 497,62;Active;Clm9383;2025/01/02;30 461,09;Rejected;Yes
+Cust1384;46;Male;Limpopo;16 255,50;2023/09/16;Pol5384;Home;1 369,43;Lapsed;Clm9384;2025/07/09;25 800,68;Rejected;Yes
+Cust1385;34;Male;Limpopo;52 167,17;2021/05/28;Pol5385;Life;1 039,06;Active;Clm9385;2024/12/05;52 655,78;Approved;No
+Cust1386;43;Male;North West;39 728,70;2024/06/29;Pol5386;Home;1 050,86;Cancelled;Clm9386;2024/11/27;23 292,12;Rejected;Yes
+Cust1388;35;Male;North West;14 826,00;2021/07/23;Pol5388;Health;1 618,63;Active;Clm9388;2025/03/23;17 747,34;Approved;No
+Cust1390;36;Male;Kwazulu-Natal;19 930,13;2020/09/16;Pol5390;Health;1 680,30;Active;Clm9390;2024/01/02;500;Approved;No
+Cust1391;49;Male;Western Cape;35 376,57;2020/12/14;Pol5391;Life;1 077,54;Cancelled;Clm9391;2024/08/14;18 986,31;Pending;No
+Cust1392;45;Female;Western Cape;26 198,77;2023/11/16;Pol5392;Health;1 809,53;Active;Clm9392;2024/11/23;15 277,09;Approved;No
+Cust1393;65;Male;North West;44 579,59;2022/02/22;Pol5393;Health;2 167,08;Active;Clm9393;2024/03/10;11 352,66;Approved;No
+Cust1394;56;Male;Gauteng;28 270,82;2022/01/24;Pol5394;Auto;934;Active;Clm9394;2024/06/19;27 099,48;Approved;No
+Cust1395;44;Female;North West;34 941,27;2021/11/20;Pol5395;Life;1 351,08;Active;Clm9395;2025/08/14;46 760,64;Approved;No
+Cust1396;36;Male;Western Cape;3 500,00;2022/03/10;Pol5396;Health;2 276,98;Lapsed;Clm9396;2024/01/21;1 840,01;Approved;No
+Cust1397;28;Male;Kwazulu-Natal;31 493,67;2021/01/22;Pol5397;Medical;1 948,34;Lapsed;Clm9397;2024/03/17;17 164,70;Approved;No
+Cust1398;38;Male;Nw;44 834,32;2021/08/02;Pol5398;Life;1 019,77;Active;Clm9398;2024/02/01;500;Approved;No
+Cust1400;44;Female;Mpumalanga;27 196,46;2022/09/15;Pol5400;Health;1 675,25;Active;Clm9400;2025/07/16;23 418,44;Approved;No
+Cust1401;46;Female;Kwazulu-Natal;16 744,72;2022/11/28;Pol5401;Health;1 951,35;Active;Clm9401;2025/09/06;10 733,56;Approved;No
+Cust1402;17;Male;Limpopo;31 377,36;2022/07/07;Pol5402;Auto;1 380,00;Active;Clm9402;2024/04/28;6 729,80;Approved;No
+Cust1404;32;Female;North West;34 711,05;2023/05/22;Pol5404;Auto;431,31;Active;Clm9404;2024/09/26;40 265,00;Approved;No
+Cust1407;45;Female;Limpopo;21 361,51;2021/03/14;Pol5407;Health;3 065,71;Active;Clm9407;2024/02/05;7 444,40;Rejected;No
+Cust1408;20;Male;Kwazulu-Natal;12 319,34;2023/03/15;Pol5408;Funeral;226,71;Active;Clm9408;2024/06/20;7 079,05;Pending;No
+Cust1410;57;Female;North West;32 273,40;2021/11/20;Pol5410;Funeral;296,17;Cancelled;Clm9410;2025/02/01;852,48;Approved;No
+Cust1411;55;Female;Mpumalanga;43 713,24;2022/05/22;Pol5411;Life;950,79;Cancelled;Clm9411;2025/12/18;41 299,00;Approved;No
+Cust1413;36;Male;Mpumalanga;42 841,26;2022/07/06;Pol5413;Funeral;335,2;Lapsed;Clm9413;2024/09/27;20 715,47;Rejected;No
+Cust1414;35;Female;Gauteng;48 338,58;2021/12/09;Pol5414;Auto;1 885,06;Active;Clm9414;2025/11/28;4 948,57;Approved;No
+Cust1415;25;Female;North West;40 419,12;2022/08/02;Pol5415;Life;1 091,21;Active;Clm9415;2024/10/02;88 057,97;Approved;Yes
+Cust1417;47;Female;North West;10 160,75;2021/12/20;Pol5417;Auto;1 716,97;Active;Clm9417;2024/07/11;24 968,70;Approved;No
+Cust1418;18;Female;Eastern Cape;56 590,49;2024/06/21;Pol5418;Home;1 269,20;Lapsed;Clm9418;2025/06/11;13 616,40;Rejected;Yes
+Cust1419;53;Female;Western Cape;28 203,13;2023/04/29;Pol5419;Home;1 842,30;Active;Clm9419;2024/06/26;45 486,62;Approved;No
+Cust1421;42;Female;Free State;24 201,59;2022/03/22;Pol5421;Life;1 127,34;Active;Clm9421;2025/01/16;63 844,41;Approved;No
+Cust1422;47;Male;Eastern Cape;3 500,00;2020/10/12;Pol5422;Life;944,86;Active;Clm9422;2024/09/21;17 003,27;Approved;No
+Cust1424;39;Male;Mpumalanga;18 009,81;2025/10/12;Pol5424;Life;602,01;Active;Clm9424;2025/11/29;24 808,48;Rejected;No
+Cust1425;50;Male;Western Cape;35 023,59;2021/03/03;Pol5425;Life;1 050,06;Active;Clm9425;2024/11/08;46 459,49;Approved;No
+Cust1426;38;Female;North West;8 340,65;2021/11/18;Pol5426;Health;-250;Active;Clm9426;2025/06/17;955,21;Approved;No
+Cust1427;46;Male;Gauteng;18 429,12;2021/10/27;Pol5427;Life;987,4;Active;Clm9427;2025/01/18;53 164,54;Rejected;No
+Cust1428;44;Female;Mpumalanga;38 205,18;2021/02/07;Pol5428;Life;806,47;Active;Clm9428;2024/10/10;47 222,64;Approved;No
+Cust1429;47;Female;Mpumalanga;32 558,09;2023/08/09;Pol5429;Life;1 079,53;Cancelled;Clm9429;2024/07/11;97 527,12;Approved;No
+Cust1430;42;Male;Gauteng;3 500,00;2023/12/24;Pol5430;Home;2 038,13;Lapsed;Clm9430;2025/11/07;29 718,74;Approved;No
+Cust1431;34;Male;Eastern Cape;14 067,56;2024/10/22;Pol5431;Funeral;335,01;Active;Clm9431;2025/02/01;16 205,06;Approved;No
+Cust1433;50;Female;Western Cape;23 283,47;2021/07/20;Pol5433;Home;1 370,43;Lapsed;Clm9433;2024/04/09;39 918,08;Rejected;Yes
+Cust1434;27;Male;North West;28 872,64;2022/06/03;Pol5434;Life;906,18;Active;Clm9434;2024/11/10;35 873,84;Approved;No
+Cust1435;58;Female;North West;28 188,31;2024/12/08;Pol5435;Auto;1 271,30;Active;Clm9435;2025/04/26;21 950,45;Rejected;No
+Cust1436;27;Male;Eastern Cape;24 402,77;2022/01/06;Pol5436;Funeral;371,59;Active;Clm9436;2025/01/25;17 926,59;Rejected;N
+Cust1437;49;Male;Western Cape;27 813,74;2022/12/13;Pol5437;Auto;1 140,06;Active;Clm9437;2025/08/06;12 884,00;Approved;No
+Cust1440;31;Female;Free State;37 226,76;2022/05/21;Pol5440;Funeral;203,97;Active;Clm9440;2024/07/23;16 740,13;Approved;No
+Cust1441;22;Female;Limpopo;15 145,03;2020/08/30;Pol5441;Motor;1 034,49;Active;Clm9441;2024/08/19;20 648,60;Rejected;No
+Cust1442;36;Female;Western Cape;43 149,57;2023/11/05;Pol5442;Auto;1 304,84;Active;Clm9442;2024/03/07;29 720,38;Approved;No
+Cust1443;22;Female;Eastern Cape;24 912,46;2025/02/03;Pol5443;Home;1 060,72;Active;Clm9443;2025/12/04;19 786,91;Approved;No
+Cust1445;27;Male;Limpopo;33 989,40;2021/04/19;Pol5445;Home;2 353,69;Active;Clm9445;2025/01/10;33 365,25;Approved;No
+Cust1446;40;Female;Mpumalanga;44 271,63;2020/05/05;Pol5446;Home;1 192,77;Active;Clm9446;2024/02/19;26 742,60;Approved;Yes
+Cust1447;36;Male;Kwazulu-Natal;7 035,75;2024/05/22;Pol5447;Health;1 917,82;Active;Clm9447;2025/04/30;3 230,24;Approved;No
+Cust1449;24;Female;Kwazulu-Natal;3 500,00;2021/06/04;Pol5449;Life;975,71;Active;Clm9449;2024/04/18;58 194,98;Approved;No
+Cust1451;30;Male;Eastern Cape;40 266,44;2021/01/04;Pol5451;Health;2 486,76;Active;Clm9451;2024/04/23;12 271,22;Approved;No
+Cust1453;38;Female;Mpumalanga;44 575,82;2022/05/26;Pol5453;Health;2 063,98;Active;Clm9453;2024/02/10;18 045,33;Approved;No
+Cust1039;42;Female;Free State;8 302,79;2023/12/29;Pol5454;Home;1 101,35;Active;Clm9454;2024/02/16;13 564,29;Rejected;No
+Cust1457;18;Female;Kwazulu-Natal;38 432,11;2023/10/14;Pol5457;Auto;1 396,96;Active;Clm9457;2024/06/12;27 705,42;Approved;No
+Cust1460;30;Female;Gauteng;18 738,42;2022/05/14;Pol5460;Home;1 324,76;Active;Clm9460;2025/08/13;41 504,72;Rejected;Yes
+Cust1462;34;Male;Gauteng;4 603,62;2022/06/15;Pol5462;Auto;2 062,56;Canceled;Clm9462;2025/04/25;21 862,91;Approved;No
+Cust1464;42;Female;Free State;14 025,03;2023/01/05;Pol5464;Home;1 431,46;Active;Clm9464;2025/08/09;9 821,88;Approved;No
+Cust1465;59;Female;Eastern Cape;42 322,79;2023/05/24;Pol5465;Health;2 334,68;Cancelled;Clm9465;2024/01/19;21 489,16;Rejected;No
+Cust1466;30;Male;Gauteng;33 357,15;2023/12/31;Pol5466;Home;1 475,50;Lapsed;Clm9466;2025/10/14;23 433,50;Pending;No
+Cust1467;43;Male;Eastern Cape;31 088,00;2021/12/30;Pol5467;Funeral;429,14;Active;Clm9467;2024/08/16;500;Approved;No
+Cust1468;37;Female;North West;23 435,83;2024/07/12;Pol5468;Home;1 034,49;Active;Clm9468;2024/08/15;29 933,73;Rejected;No
+Cust1469;30;Female;North West;33 135,40;2022/01/06;Pol5469;Home;1 734,30;Active;Clm9469;2024/05/23;21 922,89;Approved;No
+Cust1472;33;Male;Free State;7 892,45;2020/07/15;Pol5472;Home;2 200,25;Active;Clm9472;2024/06/30;10 172,38;Approved;No
+Cust1473;40;Male;Kwazulu-Natal;46 832,07;2023/03/06;Pol5473;Health;1 800,82;Active;Clm9473;2025/05/31;7 486,43;Rejected;No
+Cust1476;48;Female;North West;33 572,68;2021/08/05;Pol5476;Funeral;416,71;Active;Clm9476;2024/07/01;10 376,97;Approved;No
+Cust1477;34;Female;Kwazulu-Natal;10 992,71;2023/06/14;Pol5477;Home;1 576,37;Active;Clm9477;2025/11/14;19 111,01;Approved;No
+Cust1478;45;Female;Free State;47 768,38;2024/01/11;Pol5478;Home;1 153,34;Active;Clm9478;2024/05/28;21 393,50;Approved;No
+Cust1479;38;Male;Mpumalanga;14 330,40;2023/10/20;Pol5479;Home;989,81;Active;Clm9479;2024/09/13;19 776,00;Approved;No
+Cust1481;46;Male;Free State;16 294,72;2020/11/02;Pol5481;Auto;1 457,80;Lapsed;Clm9481;2024/10/21;500;Rejected;No
+Cust1483;66;Female;Limpopo;24 385,55;2022/07/03;Pol5483;Funeral;301;Active;Clm9483;2025/08/25;11 833,94;Approved;No
+Cust1484;66;Male;Limpopo;24 770,74;2023/06/21;Pol5484;Health;2 965,17;Active;Clm9484;2024/07/10;5 481,95;Approved;No
+Cust1485;39;Male;Free State;31 760,31;2021/02/03;Pol5485;Auto;959,81;Active;Clm9485;2024/06/13;18 326,57;Approved;No
+Cust1486;26;Male;North West;39 487,75;2021/06/23;Pol5486;Health;1 847,98;Cancelled;Clm9486;2024/11/26;14 866,76;Approved;Yes
+Cust1487;46;Female;Eastern Cape;20 367,39;2024/02/14;Pol5487;Home;1 345,57;Active;Clm9487;2025/12/25;9 420,90;Approved;No
+Cust1488;18;Male;Kwazulu-Natal;20 747,03;2024/07/14;Pol5488;Home;2 152,61;Active;Clm9488;2025/02/17;500;Approved;No
+Cust1490;18;Male;Kwazulu-Natal;47 494,38;2022/02/26;Pol5490;Life;580;Active;Clm9490;2025/09/20;38 685,99;Rejected;No
+Cust1491;23;Male;North West;6 715,98;2021/08/10;Pol5491;Health;2 704,04;Lapsed;Clm9491;2024/09/19;11 438,24;Approved;No
+Cust1492;29;Male;North West;22 568,49;2021/02/04;Pol5492;Life;1 367,84;Active;Clm9492;2024/10/30;52 309,01;Approved;No
+Cust1494;51;Male;Kwazulu-Natal;33 645,84;2021/07/06;Pol5494;Home;558,68;Active;Clm9494;2025/03/21;40 934,78;Rejected;No
+Cust1495;24;Male;Western Cape;38 799,63;2023/10/27;Pol5495;Auto;1 350,39;Active;Clm9495;2024/03/16;29 076,21;Rejected;Yes
+Cust1496;31;Male;Limpopo;39 334,32;2022/08/17;Pol5496;Funeral;296,52;Active;Clm9496;2025/02/18;5 746,93;Approved;No
+Cust1498;57;Male;North West;36 723,22;2021/05/12;Pol5498;Funeral;588,96;Active;Clm9498;2024/11/04;14 245,55;Rejected;Yes
+Cust1499;43;Female;Free State;22 484,19;2024/03/07;Pol5499;Health;2 284,00;Active;Clm9499;2025/06/30;-899,99;Approved;No
+Cust1500;26;Female;Mpumalanga;19 166,97;2023/08/23;Pol5500;Funeral;311,46;Active;Clm9500;2025/10/25;16 679,22;Approved;No
+Cust1501;41;Male;Western Cape;43 318,51;2022/05/10;Pol5501;Auto;1 517,65;Active;Clm9039;2025/07/04;27 157,29;Approved;No
+Cust1503;48;Male;Western Cape;4 270,37;2023/03/23;Pol5503;Auto;1 637,08;Active;Clm9503;2024/04/27;14 617,13;Approved;No
+Cust1504;24;Male;Eastern Cape;15 945,30;2024/01/26;Pol5504;Life;859,22;Active;Clm9504;2024/09/13;63 461,38;Approved;Yes
+Cust1505;39;Female;North West;38 114,26;2025/04/07;Pol5505;Auto;1 222,15;Active;Clm9505;2025/09/26;28 423,59;Approved;No
+Cust1506;41;Male;Eastern Cape;34 338,59;2024/09/13;Pol5506;Health;1 637,51;Active;Clm9506;2025/08/21;24 389,11;Approved;No
+Cust1507;37;Female;North West;23 337,47;2020/12/11;Pol5507;Funeral;1 034,49;Active;Clm9507;2024/08/14;18 429,00;Approved;No
+Cust1508;26;Female;Western Cape;29 224,63;2023/02/27;Pol5508;Life;803,04;Active;Clm9508;2025/04/01;64 131,00;Approved;No
+Cust1509;44;Female;Kwazulu-Natal;17 825,61;2021/04/16;Pol5509;Auto;1 714,33;Active;Clm9509;2024/05/23;8 205,26;Rejected;No
+Cust1511;59;Male;Gauteng;28 487,31;2021/07/29;Pol5511;Life;1 222,48;Active;Clm9511;2025/04/28;44 173,28;Pending;No
+Cust1512;45;Female;Free State;24 918,41;2023/12/25;Pol5512;Auto;1 372,28;Active;Clm9512;2024/10/24;9 604,67;Rejected;No
+Cust1515;49;Male;Limpopo;23 723,77;2024/05/02;Pol5515;Home;1 263,04;Active;Clm9515;2024/08/27;38 996,00;Approved;No
+Cust1517;26;Female;Mpumalanga;50 149,63;2022/12/06;Pol5517;Life;934,18;Active;Clm9517;2025/01/22;21 517,39;Approved;No
+Cust1518;39;Male;Mpumalanga;11 246,68;2022/12/22;Pol5518;Health;2 922,06;Cancelled;Clm9518;2024/12/27;16 166,05;Approved;No
+Cust1519;48;Female;Gauteng;19 156,88;2021/04/01;Pol5519;Life;903,99;Active;Clm9519;2024/03/19;45 945,00;Approved;No
+Cust1115;46;Female;Free State;21 169,24;2023/06/21;Pol5115;Auto;2 105,06;Active;Clm9115;2024/07/03;32 834,36;Approved;No
+Cust1514;37;Female;Western Cape;34 137,78;2021/08/13;Pol5514;Auto;1 040,60;Cancelled;Clm9514;2024/05/29;15 498,58;Approved;No
+Cust1510;37;Male;Kwazulu-Natal;30 069,00;2022/04/21;Pol5510;Funeral;490,62;Lapsed;Clm9510;2025/08/18;10 715,55;Approved;No
+Cust1044;41;Male;Free State;15 339,57;2023/04/01;Pol5044;Funeral;271,78;Lapsed;Clm9044;2025/04/16;10 538,65;Approved;Yes
+Cust1039;33;Female;Gauteng;19 938,54;2021/04/11;Pol5039;Auto;1 253,73;Cancelled;Clm9039;2024/06/01;15 634,16;Rejected;Yes
+Cust1495;24;Male;Western Cape;38 799,63;2023/10/27;Pol5495;Auto;1 350,39;Active;Clm9495;2024/03/16;29 076,21;Rejected;Yes
+Cust1501;41;Male;Western Cape;43 318,51;2022/05/10;Pol5501;Auto;1 517,65;Active;Clm9501;2025/07/04;27 157,29;Approved;No
+Cust1459;36;Male;Eastern Cape;26 015,00;2023/09/11;Pol5459;Funeral;493,46;Active;Clm9459;2024/02/17;4 982,78;Approved;No
+Cust1368;41;Male;Western Cape;3 500,00;2021/11/10;Pol5368;Home;1 111,28;Active;Clm9368;2024/06/17;30 204,44;Approved;No
