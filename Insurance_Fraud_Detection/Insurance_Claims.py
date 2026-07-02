@@ -165,9 +165,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Load model ───────────────────────────────────────────────────
-model  = joblib.load("models/fraud_model.pkl")
-scaler = joblib.load("models/scaler.pkl")
-features = joblib.load("models/features.pkl")
+model  = joblib.load("Models/fraud_model.pkl")
+scaler = joblib.load("Models/scaler.pkl")
+features = joblib.load("Models/features.pkl")
 
 # ── Tabs  (Dashboard first = landing page) ───────────────────────
 tab2, tab1 = st.tabs(["📊 Dashboard", "🔍 Fraud Prediction"])
