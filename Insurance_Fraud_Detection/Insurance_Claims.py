@@ -40,21 +40,56 @@ st.markdown("""
     .stProgress > div > div { background-color: #2563EB; }
     h1, h2, h3 { color: #FFFFFF !important; }
     p, .stMarkdown { color: #C8D6E5; }
+
+    /* Tab styling */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 8px;
+        background-color: #0D1B2A;
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .stTabs [data-baseweb="tab"] {
+        background-color: #162233;
+        color: #8FA3BC;
+        border-radius: 6px 6px 0 0;
+        border: 1px solid rgba(255,255,255,0.08);
+        padding: 8px 20px;
+        font-weight: 500;
+    }
+    .stTabs [aria-selected="true"] {
+        background-color: #2563EB !important;
+        color: white !important;
+        border-color: #2563EB !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
-model = joblib.load("Insurance_Fraud_Detection/Models/fraud_model.pkl")
-scaler = joblib.load("Insurance_Fraud_Detection/Models/scaler.pkl")
-features = joblib.load("Insurance_Fraud_Detection/Models/features.pkl")
+# -------------------------
+# LOAD MODEL
+# -------------------------
 
-st.sidebar.title("Navigation")
-page = st.sidebar.selectbox("Select Page", ["Prediction", "About"])
+model = joblib.load("models/fraud_model.pkl")
+scaler = joblib.load("models/scaler.pkl")
+features = joblib.load("models/features.pkl")
 
-if page == "Prediction":
+# -------------------------
+# HEADER
+# -------------------------
 
-    st.title("🛡️ Insurance Fraud Detection")
-    st.write("Enter claim details — results appear instantly on the right.")
-    st.markdown("---")
+st.title("🛡️ Health Shield — Insurance Fraud Detection")
+st.write("ML-powered fraud prediction alongside your claims analytics dashboard.")
+st.markdown("---")
+
+# -------------------------
+# TABS
+# -------------------------
+
+tab1, tab2 = st.tabs(["🔍 Fraud Prediction", "📊 Power BI Dashboard"])
+
+# ==========================================================
+# TAB 1 — PREDICTION
+# ==========================================================
+
+with tab1:
 
     left_col, right_col = st.columns([1, 1], gap="large")
 
@@ -90,7 +125,6 @@ if page == "Prediction":
             else:
                 st.success("✅ Legitimate Claim")
 
-            # Single metric — fraud probability only
             st.metric("Fraud Probability", f"{probability * 100:.2f}%")
 
             if probability < 0.30:
@@ -127,18 +161,25 @@ if page == "Prediction":
                 unsafe_allow_html=True
             )
 
-if page == "About":
-    st.header("About This Project")
-    st.markdown("""
-    ### Project
-    This application predicts insurance fraud using Machine Learning.
+# ==========================================================
+# TAB 2 — POWER BI DASHBOARD
+# ==========================================================
 
-    ### Features
-    - Age
-    - Monthly Income
-    - Premium Amount
-    - Claim Amount
+with tab2:
 
-    ### Developed By
-    Kgobeane Mahlo
-    """)
+    st.subheader("Claims & Fraud Analysis Dashboard")
+    st.write("Interactive overview of claims data. Use the filters inside the dashboard to drill down.")
+
+    st.markdown(
+        """
+        <iframe
+            title="Health Shield Power BI Dashboard"
+            src="https://app.powerbi.com/view?r=eyJrIjoiNDBmOTM5NmUtODliNy00ZWNiLWE2YjEtYTY2NTg3N2I3MWQ0IiwidCI6IjQ0MWRiNzQ0LWY5NzUtNGI2Ny04YzU3LTA1NDFkMTI3NjM2MyJ9"
+            width="100%"
+            height="750"
+            frameborder="0"
+            allowFullScreen="true">
+        </iframe>
+        """,
+        unsafe_allow_html=True
+    )
